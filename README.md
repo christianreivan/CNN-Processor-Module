@@ -31,5 +31,6 @@ Should you intend to use all the RTL codes, please do not forget to cite the aut
     -- Created from October to November 2021.
     -- I, hereby, declare that this RTL code is not used for any illegal or prohibited use.   
     
-
+### References
+[1] http://eyeriss.mit.edu/tutorial.html
 
