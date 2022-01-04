@@ -32,5 +32,5 @@ Should you intend to use all the RTL codes, please do not forget to cite the aut
     -- I, hereby, declare that this RTL code is not used for any illegal or prohibited use.   
     
 ### References
-[1]: http://eyeriss.mit.edu/tutorial.html
+[^1]: http://eyeriss.mit.edu/tutorial.html
 
