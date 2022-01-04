@@ -20,9 +20,9 @@ To make the operation simpler, we first convert the 3x3 fmap input matrix to toe
 
 ## Checklists
 
-- Designed simple Convolutional Neural Network (CNN) operation for Eyeris-based AI processor module with pipelining and folding architecture
-- Translated block diagrams into RTL codes.
-- Created design was behaviorally simulated in Quartus and Modelsim.
+- Design simple Convolutional Neural Network (CNN) operation for Eyeris-based AI processor module with pipelining and folding architecture
+- Translate block diagrams into RTL codes.
+- Create design was behaviorally simulated in Quartus and Modelsim.
 
 ## ALERT
 Should you intend to use all the RTL codes, please do not forget to cite the author as:
