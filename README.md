@@ -1,6 +1,6 @@
 # CNN-Processor-Module
 
-toc
+[toc]
 
 ## INTRO
 This project is addressed to design an Eyeris-based AI processor module. Operation uses Convolutional Neural Network (CNN) concept with the illustration as following:
