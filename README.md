@@ -7,10 +7,12 @@ This project is addressed to design an Eyeris-based AI processor module. Operati
 
 Operation is done between 2x2 filter matrix and 2x2 input matrix as shown in the figure below:
 
+<p align="center">
 <figure>
 <img width="448" alt="image" src="https://user-images.githubusercontent.com/53311342/148112930-ad12d052-b45e-4a1f-bf3e-8b9c98e12a9d.png">
-<figcaption> **CNN operation**. </figcaption>
+    <figcaption><em>CNN operation</em></figcaption>
 </figure>
+</p>
 
 ## Checklists
 
