@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../CNN.srcs/sources_1/bd/system2/ipshared/8b3d" \
+"../../../../../register.v" \
+"../../../../CNN.ip_user_files/bd/system2/sim/system2.v" \
+"../../../../CNN.ip_user_files/bd/system2/ip/system2_registers_0_0/sim/system2_registers_0_0.v" \
+"../../../../CNN.ip_user_files/bd/system2/ip/system2_clk_wiz_0/system2_clk_wiz_0_clk_wiz.v" \
+"../../../../CNN.ip_user_files/bd/system2/ip/system2_clk_wiz_0/system2_clk_wiz_0.v" \
+"../../../../CNN.ip_user_files/bd/system2/ip/system2_xlconstant_0_0/sim/system2_xlconstant_0_0.v" \
+"../../../../CNN.ip_user_files/bd/system2/ip/system2_blk_mem_gen_0_0/sim/system2_blk_mem_gen_0_0.v" \
+"../../../../CNN.srcs/sources_1/bd/system2/hdl/system2_wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

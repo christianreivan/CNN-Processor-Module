@@ -1,0 +1,19 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+D:/Verilog/CNN/Vivado/CNN.ip_user_files/bd/system2/ip/system2_blk_mem_gen_0_0/sim/system2_blk_mem_gen_0_0.v,1645891238,verilog,,D:/Verilog/CNN/Vivado/CNN.srcs/sources_1/bd/system2/hdl/system2_wrapper.v,,system2_blk_mem_gen_0_0,,,../../../../CNN.srcs/sources_1/bd/system2/ipshared/8b3d,,,,,
+D:/Verilog/CNN/Vivado/CNN.ip_user_files/bd/system2/ip/system2_clk_wiz_0/system2_clk_wiz_0.v,1645890574,verilog,,D:/Verilog/CNN/Vivado/CNN.ip_user_files/bd/system2/ip/system2_xlconstant_0_0/sim/system2_xlconstant_0_0.v,,system2_clk_wiz_0,,,../../../../CNN.srcs/sources_1/bd/system2/ipshared/8b3d,,,,,
+D:/Verilog/CNN/Vivado/CNN.ip_user_files/bd/system2/ip/system2_clk_wiz_0/system2_clk_wiz_0_clk_wiz.v,1645890574,verilog,,D:/Verilog/CNN/Vivado/CNN.ip_user_files/bd/system2/ip/system2_clk_wiz_0/system2_clk_wiz_0.v,,system2_clk_wiz_0_clk_wiz,,,../../../../CNN.srcs/sources_1/bd/system2/ipshared/8b3d,,,,,
+D:/Verilog/CNN/Vivado/CNN.ip_user_files/bd/system2/ip/system2_registers_0_0/sim/system2_registers_0_0.v,1645890572,verilog,,D:/Verilog/CNN/Vivado/CNN.ip_user_files/bd/system2/ip/system2_clk_wiz_0/system2_clk_wiz_0_clk_wiz.v,,system2_registers_0_0,,,../../../../CNN.srcs/sources_1/bd/system2/ipshared/8b3d,,,,,
+D:/Verilog/CNN/Vivado/CNN.ip_user_files/bd/system2/ip/system2_rst_clk_wiz_100M_0/sim/system2_rst_clk_wiz_100M_0.vhd,1645890575,vhdl,,,,system2_rst_clk_wiz_100m_0,,,,,,,,
+D:/Verilog/CNN/Vivado/CNN.ip_user_files/bd/system2/ip/system2_xlconstant_0_0/sim/system2_xlconstant_0_0.v,1645890575,verilog,,D:/Verilog/CNN/Vivado/CNN.ip_user_files/bd/system2/ip/system2_blk_mem_gen_0_0/sim/system2_blk_mem_gen_0_0.v,,system2_xlconstant_0_0,,,../../../../CNN.srcs/sources_1/bd/system2/ipshared/8b3d,,,,,
+D:/Verilog/CNN/Vivado/CNN.ip_user_files/bd/system2/sim/system2.v,1645891238,verilog,,D:/Verilog/CNN/Vivado/CNN.ip_user_files/bd/system2/ip/system2_registers_0_0/sim/system2_registers_0_0.v,,system2,,,../../../../CNN.srcs/sources_1/bd/system2/ipshared/8b3d,,,,,
+D:/Verilog/CNN/Vivado/CNN.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+D:/Verilog/CNN/Vivado/CNN.srcs/sources_1/bd/system2/hdl/system2_wrapper.v,1645891859,verilog,,,,system2_wrapper;system2_wrapper_tb,,,../../../../CNN.srcs/sources_1/bd/system2/ipshared/8b3d,,,,,
+D:/Verilog/CNN/Vivado/CNN.srcs/sources_1/imports/CNN/filter_genCU.v,1645897192,verilog,,D:/Verilog/CNN/Vivado/CNN.srcs/sources_1/imports/CNN/mux2.v,,filterCU_TB;filter_genCU,,,../../../../CNN.srcs/sources_1/bd/system2/ipshared/8b3d,,,,,
+D:/Verilog/CNN/Vivado/CNN.srcs/sources_1/imports/CNN/filter_genDP.v,1645893642,verilog,,,,RAM_InterfaceFILTER;filter_genDP;filter_genDP_TB,,,../../../../CNN.srcs/sources_1/bd/system2/ipshared/8b3d,,,,,
+D:/Verilog/CNN/Vivado/CNN.srcs/sources_1/imports/CNN/mux2.v,1641813035,verilog,,D:/Verilog/CNN/Vivado/CNN.srcs/sources_1/imports/CNN/mux4.v,,mux2,,,../../../../CNN.srcs/sources_1/bd/system2/ipshared/8b3d,,,,,
+D:/Verilog/CNN/Vivado/CNN.srcs/sources_1/imports/CNN/mux4.v,1641847208,verilog,,D:/Verilog/CNN/Vivado/CNN.srcs/sources_1/imports/CNN/mux8.v,,mux4;mux4_TB,,,../../../../CNN.srcs/sources_1/bd/system2/ipshared/8b3d,,,,,
+D:/Verilog/CNN/Vivado/CNN.srcs/sources_1/imports/CNN/mux8.v,1641743881,verilog,,D:/Verilog/CNN/Vivado/CNN.srcs/sources_1/imports/CNN/filter_genDP.v,,mux8,,,../../../../CNN.srcs/sources_1/bd/system2/ipshared/8b3d,,,,,
+D:/Verilog/CNN/register.v,1645888840,verilog,,D:/Verilog/CNN/Vivado/CNN.ip_user_files/bd/system2/sim/system2.v,,register_TB;registers,,,../../../../CNN.srcs/sources_1/bd/system2/ipshared/8b3d,,,,,

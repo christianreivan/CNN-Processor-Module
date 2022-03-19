@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../bd/system2/ip/system2_rst_clk_wiz_100M_0/sim/system2_rst_clk_wiz_100M_0.vhd" \
+
+nosort

@@ -1,0 +1,151 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x99EAC15BBD5E9210",
+      "device": "xczu3eg-sbva484-1-i",
+      "name": "system",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.1"
+    },
+    "design_tree": {
+      "clk_wiz_0": "",
+      "blk_mem_gen_0": "",
+      "registers_0": "",
+      "xlconstant_0": "",
+      "rst_clk_wiz_0_100M": ""
+    },
+    "ports": {
+      "clk_100MHz": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "FREQ_HZ": {
+            "value": "100000000"
+          }
+        }
+      },
+      "reset_rtl": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      }
+    },
+    "components": {
+      "clk_wiz_0": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "xci_name": "system_clk_wiz_0_0"
+      },
+      "blk_mem_gen_0": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "xci_name": "system_blk_mem_gen_0_0",
+        "parameters": {
+          "Coe_File": {
+            "value": "../../../../../../../FILTER_RAM.coe"
+          },
+          "Enable_32bit_Address": {
+            "value": "false"
+          },
+          "Load_Init_File": {
+            "value": "true"
+          },
+          "Memory_Type": {
+            "value": "Single_Port_RAM"
+          },
+          "Operating_Mode_A": {
+            "value": "READ_FIRST"
+          },
+          "Port_A_Write_Rate": {
+            "value": "50"
+          },
+          "Port_B_Clock": {
+            "value": "0"
+          },
+          "Port_B_Enable_Rate": {
+            "value": "0"
+          },
+          "Port_B_Write_Rate": {
+            "value": "0"
+          },
+          "Read_Width_A": {
+            "value": "8"
+          },
+          "Register_PortA_Output_of_Memory_Primitives": {
+            "value": "true"
+          },
+          "Use_Byte_Write_Enable": {
+            "value": "false"
+          },
+          "Use_RSTA_Pin": {
+            "value": "false"
+          },
+          "Write_Depth_A": {
+            "value": "4096"
+          },
+          "Write_Width_A": {
+            "value": "8"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      },
+      "registers_0": {
+        "vlnv": "xilinx.com:module_ref:registers:1.0",
+        "xci_name": "system_registers_0_0"
+      },
+      "xlconstant_0": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "system_xlconstant_0_0"
+      },
+      "rst_clk_wiz_0_100M": {
+        "vlnv": "xilinx.com:ip:proc_sys_reset:5.0",
+        "xci_name": "system_rst_clk_wiz_0_100M_0"
+      }
+    },
+    "nets": {
+      "rst_clk_wiz_0_100M_peripheral_aresetn": {
+        "ports": [
+          "rst_clk_wiz_0_100M/peripheral_aresetn",
+          "registers_0/rst"
+        ]
+      },
+      "clk_wiz_0_locked": {
+        "ports": [
+          "clk_wiz_0/locked",
+          "rst_clk_wiz_0_100M/dcm_locked"
+        ]
+      },
+      "reset_rtl_1": {
+        "ports": [
+          "reset_rtl",
+          "clk_wiz_0/reset",
+          "rst_clk_wiz_0_100M/ext_reset_in"
+        ]
+      },
+      "clk_100MHz_1": {
+        "ports": [
+          "clk_100MHz",
+          "clk_wiz_0/clk_in1"
+        ]
+      },
+      "clk_wiz_0_clk_out1": {
+        "ports": [
+          "clk_wiz_0/clk_out1",
+          "rst_clk_wiz_0_100M/slowest_sync_clk",
+          "registers_0/clk"
+        ]
+      },
+      "xlconstant_0_dout": {
+        "ports": [
+          "xlconstant_0/dout",
+          "registers_0/en"
+        ]
+      }
+    }
+  }
+}

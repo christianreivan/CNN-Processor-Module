@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../CNN.srcs/sources_1/bd/system2/ipshared/8b3d" \
+"../../../../CNN.srcs/sources_1/imports/CNN/filter_genCU.v" \
+"../../../../CNN.srcs/sources_1/imports/CNN/mux2.v" \
+"../../../../CNN.srcs/sources_1/imports/CNN/mux4.v" \
+"../../../../CNN.srcs/sources_1/imports/CNN/mux8.v" \
+"../../../../CNN.srcs/sources_1/imports/CNN/filter_genDP.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

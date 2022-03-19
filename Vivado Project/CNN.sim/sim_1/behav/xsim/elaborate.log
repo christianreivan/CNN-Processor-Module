@@ -1,0 +1,23 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto ad6681b3e0b5451b8d6c7ab88dfe3147 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot filter_genDP_TB_behav xil_defaultlib.filter_genDP_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "D:/Verilog/CNN/Vivado/CNN.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/Verilog/CNN/Vivado/CNN.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.register(N=4)
+Compiling module xil_defaultlib.filter_genCU
+Compiling module xil_defaultlib.RAM_InterfaceFILTER
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.mux4
+Compiling module xil_defaultlib.mux8
+Compiling module xil_defaultlib.register
+Compiling module xil_defaultlib.filter_genDP
+Compiling module xil_defaultlib.filter_genDP_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot filter_genDP_TB_behav
